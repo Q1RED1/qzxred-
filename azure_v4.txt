@@ -4,11 +4,7 @@
 
 
 
-if (not LPH_OBFUSCATED) then
-    LPH_NO_VIRTUALIZE = function(...) return (...) end;
-    LPH_JIT_MAX = function(...) return (...) end;
-    LPH_JIT_ULTRA = function(...) return (...) end;
-end
+
 
 
 function load()
@@ -2890,8 +2886,8 @@ function load()
             ThemeManager:SetLibrary(Library)
             SaveManager:SetLibrary(Library)
 
-            ThemeManager:SetFolder("Azure")
-            SaveManager:SetFolder("Azure/Hood")
+            ThemeManager:SetFolder("QZXRED")
+            SaveManager:SetFolder("QZXRED")
 
             SaveManager:BuildConfigSection(Tabs.Settings)
             ThemeManager:ApplyToTab(Tabs.Settings)
